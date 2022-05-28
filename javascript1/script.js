@@ -1,5 +1,7 @@
-var nome = 'Rafael';
-var sobrenome = 'Lira';
-var nomecompleto = nome+ ' '+sobrenome;
+function digitou(e) {
+    if (e.keyCode == 13 && e.ctrlKey  == true) {
+        let texto = document.getElementById('campo').value;
 
-alert(nomecompleto);
+        console.log(texto);
+    }
+}
