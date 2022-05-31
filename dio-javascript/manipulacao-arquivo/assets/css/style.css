@@ -1,0 +1,8 @@
+body {
+    background-image: linear-gradient(to bottom, darkgray, black);
+}
+
+#counter {
+    width: 1000px;
+    height: 100vw;
+}
